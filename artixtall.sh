@@ -65,23 +65,19 @@ read home
 fdisk /dev/$drive << EOF
 o
 n
-p
-1
+
 
 +${boot}G
 n
-p
-2
+
 
 +${root}G
 n
-p
-3
+
 
 +${swap}G
 n
-p
-4
+
 
 +${home}G
 w
