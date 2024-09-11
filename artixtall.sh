@@ -68,18 +68,22 @@ n
 
 
 +${boot}G
+
 n
 
 
 +${root}G
+
 n
 
 
 +${swap}G
+
 n
 
 
 +${home}G
+
 w
 EOF
 
