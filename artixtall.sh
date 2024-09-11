@@ -63,7 +63,7 @@ read home
 
 # Create partitions
 fdisk /dev/$drive << EOF
-o
+g
 n
 
 
